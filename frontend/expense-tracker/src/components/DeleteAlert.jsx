@@ -1,5 +1,4 @@
-import React from "react";
-
+/* eslint-disable react/prop-types */
 const DeleteAlert = ({ content, onDelete }) => {
   return (
     <div>
@@ -11,7 +10,7 @@ const DeleteAlert = ({ content, onDelete }) => {
           className="add-btn add-btn-fill"
           onClick={onDelete}
         >
-          Delete 
+          Delete
         </button>
       </div>
     </div>

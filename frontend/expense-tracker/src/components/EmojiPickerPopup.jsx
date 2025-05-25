@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+/* eslint-disable react/prop-types */
+import { useState } from "react";
 import EmojiPicker from "emoji-picker-react";
 import { LuImage, LuX } from "react-icons/lu";
 
@@ -30,7 +31,7 @@ const EmojiPickerPopup = ({ icon, onSelect }) => {
           >
             <LuX />
           </button>
-          
+
           <EmojiPicker
             open={isOpen}
             onEmojiClick={(emoji) => onSelect(emoji?.imageUrl || "")}
