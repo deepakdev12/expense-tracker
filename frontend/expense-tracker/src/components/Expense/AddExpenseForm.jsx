@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Input from "../Inputs/Input";
 import EmojiPickerPopup from "../EmojiPickerPopup";
 
-const AddExpenseForm = ({onAddExpense}) => {
+const AddExpenseForm = ({ onAddExpense }) => {
   const [income, setIncome] = useState({
     category: "",
     amount: "",
@@ -47,7 +47,7 @@ const AddExpenseForm = ({onAddExpense}) => {
         <button
           type="button"
           className="add-btn add-btn-fill"
-          onClick={()=>onAddExpense(income)}
+          onClick={() => onAddExpense(income)}
         >
           Add Expense
         </button>

@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { LuPlus } from "react-icons/lu";
 import CustomLineChart from "../Charts/CustomLineChart";
 import { prepareExpenseLineChartData } from "../../utils/helper";
 
-const ExpenseOverview = ({transactions, onExpenseIncome}) => {
+const ExpenseOverview = ({ transactions, onExpenseIncome }) => {
   const data = [
     { month: "Jan", amount: 1200 },
     { month: "Feb", amount: 1500 },

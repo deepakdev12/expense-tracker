@@ -1,5 +1,3 @@
-import React from "react";
-
 const Modal = ({ isOpen, onClose, children, title }) => {
   if (!isOpen) return null;
 
@@ -39,9 +37,7 @@ const Modal = ({ isOpen, onClose, children, title }) => {
           </div>
 
           {/* Modal body */}
-          <div className="p-4 md:p-5 space-y-4">
-           {children}
-          </div>
+          <div className="p-4 md:p-5 space-y-4">{children}</div>
         </div>
       </div>
     </div>
