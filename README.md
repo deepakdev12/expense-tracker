@@ -7,7 +7,7 @@ Add, view, and delete income and expense transactions
 Dashboard with summary cards and recent transactions
 Visual charts for income and expense trends
 Download income and expense data as Excel files
-Profile image upload
+Profile image upload(future feature)
 Responsive and modern UI
 Tech Stack
 Frontend:
